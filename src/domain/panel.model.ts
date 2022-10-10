@@ -32,6 +32,7 @@ export class Panel {
 	private getNextPass(): number {
 		const current = parseInt(this.password, 10);
 		const next = current + 1;
+		if (next >= 1000) return 0;
 		return next;
 	}
 

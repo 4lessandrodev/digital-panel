@@ -20,6 +20,8 @@ const Home: NextPage = () => {
   }
 
   const handleNext = () => {
+    const audio = new Audio('/assets/sounds/1.mp3');
+    audio.play();
     const nextModel = panel.next();
     setPanel(nextModel);
   };

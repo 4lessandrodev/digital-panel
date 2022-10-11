@@ -4,7 +4,7 @@ Painel Digital para atendimento ao cliente
 
 ---
 
-![](doc.png)
+![](docs/doc.png)
 
 ## Senhas sequenciais
 
@@ -39,6 +39,26 @@ Painel Digital para atendimento ao cliente
 - Delete `[Del]` ou
 - Escape `[Esc]`
 
+---
+
+## Offline
+### Instalação para suporte offline
+
+Para ter acesso à aplicação sem acesso à internet, instale conforme exemplo abaixo:
+
+- Clique no ícone computador à direita da barra de navegação
+
+![](docs/install.png)
+
+- Após instalar um ícone será criado na área de trabalho. Você pode alterar o ícone clicando com o botão direito do mouse se desejar.
+
+![](docs/desktop-icon.png)
+
+- Ao clicar duas vezes no ícone a aplicação será iniciada em tela cheia. Para maximizar você pode clicar na opção maximizar.
+
+![](docs/open-desktop.png)
+
 #### Observações
 
-A senha será salva no navegador, sendo assim não tem problema fechar o navegador, quando abrir novamente a senha continuará de onde parou.
+Os dados serão salvos na aplicação, sendo assim não tem problema fechá-la, quando abrir novamente a senha continuará de onde parou.
+

@@ -18,10 +18,11 @@ const Home: NextPage = () => {
     const prevKey = 'ArrowLeft';
     const deleteKey = 'Delete';
     const backspaceKey = 'Backspace';
+    const scapeKey = 'Escape';
 
     if (pressedKey === nextKey || pressedKey === spaceKey) return handleNext();
     if (pressedKey === prevKey) return handlePrev();
-    if (pressedKey === deleteKey) return setPanel(Panel.start());
+    if (pressedKey === deleteKey || pressedKey === scapeKey) return setPanel(Panel.start());
     if (pressedKey === backspaceKey) return handleNewPass();
   }
 

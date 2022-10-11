@@ -34,6 +34,11 @@ Painel Digital para atendimento ao cliente
 
 - F11 `[F11]`
 
+### Para reiniciar do zero pressione
+
+- Delete `[Del]` ou
+- Escape `[Esc]`
+
 #### Observações
 
 A senha será salva no navegador, sendo assim não tem problema fechar o navegador, quando abrir novamente a senha continuará de onde parou.

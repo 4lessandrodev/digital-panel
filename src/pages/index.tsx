@@ -60,6 +60,8 @@ const Home: NextPage = () => {
         <title>Painel</title>
         <meta name="description" content="Senha eletrônica" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
       </Head>
       <Layout title='Senha' />
     </div>

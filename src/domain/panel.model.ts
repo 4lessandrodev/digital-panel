@@ -13,8 +13,12 @@ export class Panel {
 		return this.password;
 	}
 
-	public static start(): Panel {
-		return new Panel('000');
+	public static start(pass?: string): Panel {
+		return new Panel(pass ?? '000');
+	}
+
+	setPassword(pass: string): Panel {
+		return new Panel(pass);
 	}
 
 	next(): Panel {

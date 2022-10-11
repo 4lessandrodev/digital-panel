@@ -15,9 +15,15 @@ export default function PanelProvider({ children }: Props) {
 		setCalledTime(FormatDate(new Date()));
 	}, [dateTimeCalled]);
 
+	useEffect(() => {
+		const lastPass = window.localStorage.getItem("digital-panel@last-password");
+		if (lastPass) setPanel(p => p.setPassword(lastPass));
+	}, []);
+
 	const context = useMemo((): PanelInterface => ({
 		panel,
 		setPanel: (panel: Panel) => {
+			window.localStorage.setItem('digital-panel@last-password', panel.getPassword());
 			setCalledTime(FormatDate(new Date()));
 			setPanel(panel);
 		},

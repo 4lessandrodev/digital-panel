@@ -1,12 +1,12 @@
+import { usePanel } from "../../contexts/panel.context";
 import { Value } from "./style";
 
-interface Props {
-	value: string;
-}
 
-export default function Password({ value }: Props) {
+export default function Password() {
+
+	const { panel } = usePanel();
 
 	return (
-		<Value>{value}</Value>
+		<Value>{panel.getPassword()}</Value>
 	)
 }
